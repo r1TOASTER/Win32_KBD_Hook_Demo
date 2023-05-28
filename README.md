@@ -31,8 +31,8 @@ To compile and run this program, you need:
 
 ## Customization
 
-- Log File: Modify the line `log_file.open(R"(your-path-goes-here)", std::ofstream::out);` to specify the desired log file path.
-- Time Duration: Adjust the line `while (end - start < (60 * 5))` to change the duration (in minutes) for which the keylogger will run.
+- Log File: Modify the line `log_file.open(R"(your-path-goes-here)", std::ofstream::out);` (line 149) to specify the desired log file path.
+- Time Duration: Adjust the line `while (end - start < (60 * 5))` (line 16) to change the duration (in minutes) for which the keylogger will run.
 
 ## Important Note
 
